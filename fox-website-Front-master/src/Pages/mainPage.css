@@ -1,0 +1,14 @@
+body{
+    background-color:#00000094;
+}
+
+.container{
+    width: 1900px;
+
+}
+.carsel{
+    padding-left: 480px ;
+    padding-top: 20px;
+    position: relative;
+    z-index: -0;
+}

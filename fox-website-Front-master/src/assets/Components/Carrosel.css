@@ -1,0 +1,20 @@
+.CRm{
+    height: 500px;
+    border-right: 0%;
+    border-left: 0%;
+    border-bottom: 0%;
+    border-top: 0%;
+    display: flex;
+    cursor: grab;
+
+}
+
+.bcolor{
+    background-color:#0000009c; 
+}
+
+.CRfoto{
+    height: 500px;
+    width: 1200px;
+    cursor: grab;
+}

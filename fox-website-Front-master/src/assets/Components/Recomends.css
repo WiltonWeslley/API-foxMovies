@@ -1,0 +1,102 @@
+.st1{
+    height: 15px;
+  }
+  
+  .st2{
+    height: 10px;
+    padding-bottom: 2px;
+  }
+  
+  .tl1{
+   font-size: 20px;
+   padding-left: 70px;
+   font-family: 'Poppins', sans-serif;
+   color: #eeeeeeea;
+   display: block;
+   line-break: loose;
+   white-space: nowrap;
+   animation: 35s slide infinite linear;
+
+  }
+
+  .recomends{
+    background-color:#0000009c;
+  }
+
+  .tl1 :hover{
+    animation-play-state:paused;
+
+  }
+  
+
+   @keyframes slide{
+    from {
+      transform: translate(0);
+    }
+    to {
+      transform: translate(-100);
+    }
+  }
+  
+
+  .des1{
+    color: rgba(245, 244, 244, 0.87);
+  }
+  
+
+  .itemsr{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+
+  .it1f{
+    width: 270px;
+    height: 350px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+
+  .itemsr1{
+    border-radius: 15px;
+    background-color: #181616ad;
+    margin: 15px;
+    border: 3px solid #1817177c;
+    cursor: pointer;
+  }
+  
+
+  .itemsr1:hover{
+    transition: 0.5s;
+    border-color: #5a47ff;
+    transform: scale(1.05);
+  }
+
+ 
+  .imdb{
+    display: flex;
+    padding-left: 60px;
+  }
+
+  .tt{
+    align-items: center;
+    display: flex;
+    align-content: center;
+    color: #5900ff81;
+    font-style: italic;
+   border-bottom: 1px solid #f7f7f781;
+   width: 1000px;
+   margin: 50px;
+  }
+
+  .tt2{
+    text-shadow: 3px 3px #000000de ;
+  }
+
+  .recomends{
+    height: 1035px;
+  }

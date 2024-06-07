@@ -1,0 +1,16 @@
+.i1{
+    margin: 5px;
+    height: 25px;
+    width: 700px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    outline: none;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    border-color: #8400ff71;
+    color: #000000;
+}

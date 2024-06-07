@@ -1,0 +1,12 @@
+.b1{
+    margin: 5px;
+    height: 25px;
+    width: 170px;
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 530px;
+    outline: none;
+}
+

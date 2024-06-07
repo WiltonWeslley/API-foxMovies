@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    background-color: #00000094;
+ }
+
+.PMm{
+    width: 1902px;
+}
+
+.PMcont{
+    width: 1780px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-break: loose;
+}
+
+.PMpP{
+    font-size: 22px;
+    justify-content: end;
+    display: flex;
+    margin-right: 100px;
+}
+
+.PMpP a{
+    font-style: none;
+    color: #000000a1;
+}
+
+

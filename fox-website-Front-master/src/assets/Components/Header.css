@@ -1,0 +1,129 @@
+.lg{
+    width: 150px;
+    height: 70px;
+    padding: 8px;
+  }
+
+.header{
+    height: 80px;
+    margin-bottom: 5px;
+    background-color: black;
+    display: flex;
+    color: #ffffffef;
+    border-bottom: 2px solid #4505bbda;
+
+  }
+  
+  .list1{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding-left: 100px;
+    font-size: 18px;
+    height: 80px;
+    
+  }
+  
+  .hb1{
+    padding: 50px;
+    cursor: pointer;
+    
+  }
+
+  
+  .hb1:hover{
+    transition: 0.2s;
+    
+  
+  
+  }
+  
+  .ps1{
+    display: flex;
+    height: 35px;
+    align-items: center;
+    padding-top: 25px;
+    margin-left: 65px;
+  }
+  
+  .ps1i{
+    width: 300px;
+    outline: none;
+    display: flex;
+    border-color: #460088;
+  }
+  
+  .ps1b{
+    width: 40px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-color: 1px solid #ffffff;
+
+  }
+  
+  .ps1f{
+    width: 20px;
+    top: 25px;
+    outline: none;
+    align-items: center;
+    border-color: 1px solid #ffffff;
+    background-color: #ffffff;
+  }
+
+  .dropd1{
+    display: inline-block;
+    text-decoration: none;
+    bleed: 1px;
+    position: relative;
+    right: 0cm;
+    cursor: pointer;
+    z-index: +10;
+  }
+
+  .dropd{
+    display: inline-block;
+    text-decoration: none;
+    bleed: 1px;
+    position: relative;
+    left: 2.09px;
+  }
+
+  .UserH{
+    left: 9.01cm;
+    position: relative;
+    display: inline-block;
+    top: 9px;
+    cursor: pointer;
+    /*z-index: ;*/
+  }
+
+  .dropd1 .dropd .dropd-m a:hover{
+    background-color: #6200ff85 1s;
+
+  }
+
+  .dropd-m{
+    position: absolute;
+    box-shadow: 0 0 2px black;
+    display: none;
+  }
+
+  .dropd-m a{
+    display: block;
+    color: #8664ff;
+  }
+
+  .dropd:hover .dropd-m{
+    display: block;
+  }
+
+  .header a {
+    color: #470c94;
+  }
+
+

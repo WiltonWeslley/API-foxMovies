@@ -1,0 +1,91 @@
+  .sobre{
+    background-image: url(../imgs/relievo-rotating-purple-swirl-wallpaper.jpg);
+    background-repeat: repeat-x;
+    background-size: contain;
+    display: flex;
+    flex-direction: row;
+    
+  }
+  
+  .stt1{
+    color: #00000049;
+    text-shadow: 2px 2px #ffffff46;
+  }
+  
+  .st1s{
+    font-size: 80px;
+    padding-left: 50px;
+  }
+  
+  .st1n{
+    font-size: 70px;
+    padding-left: 80px;
+  }
+
+    html { box-sizing: border-box; }
+  *, *::before, *::after { box-sizing: inherit; }
+
+  .l-words{
+    filter: blur(1px) 
+    contrast(25);
+    font-family: 
+    BlinkMacSystemFont, 
+    helvetica neue,  
+    Ubuntu,
+    roboto,
+    noto,
+    arial,
+    sans-serif;   
+  }
+
+  .c-word{
+    $speed: 8s;
+    $wordCount:5;
+    animation: word $speed ease-in-out infinite;
+    position: absolute;
+    color: #ffffff;
+    height: 200px;
+    padding-left: 1000px;
+    
+    padding-top: 20px;
+    font-size: 45px;
+    display: flex;
+    @for $i from 0 to $wordCount {
+      &:nth-child( #{$i + 1}) {
+        animation-delay: ($speed / ($wordCount + 1) * $i ) - $speed;    
+      }
+    }  
+ }
+
+  @keyframes word {
+    0%, 5%, 100% {
+      filter: blur(0);
+      opacity: 1;
+    }
+
+    20%, 70% {
+      filter: blur(25px);
+      opacity: 0;
+    }
+}
+
+  .stc2b{
+    
+    font-size: 45px;
+    color: #2A005D;
+    padding-left: 50px;
+  }
+  
+  .stf1{
+
+    height: 200px;
+    padding-left: 50px;
+    padding-top: 20px;
+  }
+  
+  .stf2{
+    width: 500px;
+    height: 150px;
+    padding-top: 70px;
+    padding-left: 200px;
+  }
