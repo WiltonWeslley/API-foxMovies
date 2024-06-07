@@ -20,66 +20,66 @@ interface User{
 
 
 const search : Search[] = [  
-  {nome:"Openheimer", rota:"Openheimer"},
-  {nome:"As Branquelas", rota: "As-Branquelas"},
-  {nome:'Vingadores Guerra Infinita' , rota: 'Vingadores-Guerra-Infinita'},
-  {nome:"Blade Runner 2049", rota:'Blade-Runner-2049'},
-  {nome:'Ilha do Medo', rota:'Ilha-do-Medo'},
-  {nome:'Inimigos Publicos', rota:'Inimigos-Publicos'},
-  {nome:'O irlandes', rota:'O-irlandes'},
-  {nome:'Super Mario', rota:'Super-Mario'},
-  {nome:'O Prototipo', rota:'O-Prototipo'},
-  {nome:'Sem Rastros', rota: 'Sem-Rastros'},
-  {nome:'V de Vingança', rota:'V-de-Vingança'},
-  {nome:'A Bruxa', rota:'A-Bruxa'},
-  {nome:'Matrix', rota:'Matrix'},
-  {nome:'Os Suspeitos', rota:'Os-Suspeitos'},
-  {nome:'Seven Os Sete Crimes Capitais', rota:'Seven-Os-Sete-Crimes-Capitais'},
-  {nome:'Um Sonho de Liberdade', rota:'Um-Sonho-de-Liberdade'},
-  {nome:'Pulp Fiction Tempo de Violencia', rota:'Pulp-Fiction-Tempo-de-Violencia'},
-  {nome:'De Volta para o Futuro', rota:'De-Volta-para-o-Futuro'},
-  {nome:'O Silencio dos Inocentes', rota:'O-Silencio-dos-Inocentes'},
-  {nome:'Clube Da Luta', rota:'Clube-Da-Luta'},/*
-  {nome:'Brilho Eterno de uma Mente Sem Lembrancas', rota:'Brilho-Eterno-de-uma-Mente-Sem-Lembrancas'},
-  <Route path='/Indiana-Jones-Os-Cacadores-da-Arca-Perdida' element={<IndianaJonesCDAPpage/>}/>
-  <Route path='/Indiana-Jones-e-a-Ultima-Cruzada' element={<IndianaJonesUCpage/>}/>
-  <Route path='/Indiana-Jones-e-o-Templo-da-Perdicao' element={<IndianaJonesTPpage/>}/>
-  <Route path='/Indiana-Jones-e-o-Reino-da-Caveira-de-Cristal' element={<IndianaJonesRCCpage/>}/>
-  <Route path='/Indiana-Jones-e-A-Reliquia-do-Destino' element={<IndianaJonesARDpage/>}/>
-  <Route path='/Velozes-&-Furiosos' element={<VelozesEFpage/>}/>
-  <Route path='/+Velozes-+Furiosos' element={<VelozesEFMpage/>}/>
-  <Route path='/Velozes-&-Furiosos:Desafio-em-Toquio' element={<VelozesEFDTpage/>}/>
-  <Route path='/Velozes-&-Furiosos4' element={<VelozesEF4page/>}/>
-  <Route path='/Velozes-&-Furiosos5:Operacao-Rio' element={<VelozesEF5page/>}/>
-  <Route path='/Velozes-&-Furiosos6' element={<VelozesEF6page/>}/>
-  <Route path='/Velozes-&-Furiosos7' element={<VelozesEF7page/>}/>
-  <Route path='/Velozes-&-Furiosos8' element={<VelozesEF8page/>}/>
-  <Route path='/Velozes-&-Furiosos9' element={<VelozesEF9page/>}/>
-  <Route path='/Velozes-&-Furiosos10' element={<VelozesEF10page/>}/>
-  <Route path='/Harry-Potter-e-a-Pedra-Filosofal' element={<HarryPotterPFpage/>}/>
-  <Route path='/Harry-Potter-e-a-Camara-Secreta' element={<HarryPotterCSpage/>}/>
-  <Route path='/Harry-Potter-e-o-Prisioneiro-de-Azkaban' element={<HarryPotterPApage/>}/>
-  <Route path='/Harry-Potter-e-o-Calice-de-Fogo' element={<HarryPotterCFpage/>}/>
-  <Route path='/Harry-Potter-e-o-Enigma-do-Principe' element={<HarryPotterEPpage/>}/>
-  <Route path='/Harry-Potter-e-a-Ordem-da-Fenix' element={<HarryPotterOFpage/>}/>
-  <Route path='/Harry-Potter-e-as-Reliquias-da-Morte-Parte1' element={<HarryPotterRM1page/>}/>
-  <Route path='/Harry-Potter-e-as-Reliquias-da-Morte-Parte2' element={<HarryPotterRM2page/>}/>
-  <Route path='/Para-Todos-os-Garotos-que-Ja-Amei' element={<ParaTodosOGpage/>}/>
-  <Route path='/Para-Todos-Os-Garotos:PS-Ainda-Amo-Voce' element={<ParaTodosOGPSpage/>}/>
-  <Route path='/Para-Todos-os-Garotos3' element={<ParaTodosOG3page/>}/>
-  <Route path='/Shrek' element={<Shrekpage/>}/>
-  <Route path='/Shrek2' element={<Shrek2page/>}/>
-  <Route path='/Shrek3' element={<Shrek3page/>}/>
-  <Route path='/Shrek-para-Sempre' element={<ShrekPSpage/>}/>
-  <Route path='/Senhor-dos-Aneis-A-Sociedade-do-Anel' element={<SenhorDosApage/>}/>
-  <Route path='/Senhor-dos-Aneis-As-Duas-Torres' element={<SenhorDosADTpage/>}/>
-  <Route path='/Senhor-dos-Aneis-O-Retorno-do-Rei' element={<SenhorDosARDRpage/>}/>
-  <Route path='/Star-Wars:A-Ameaça-Fantasma' element={<StarWars1page/>}/>
-  <Route path='/Star-Wars:Ataque-dos-Clones' element={<StarWars2page/>}/>
-  <Route path='/Star-Wars:A-Vingança-dos-Sith' element={<StarWars3page/>}/>
-  <Route path='/Star-Wars:Uma-Nova-Esperança' element={<StarWars4page/>}/>
-  <Route path='/Star-Wars:O-Imperio-Contra-ataca' element={<StarWars5page/>}/>
-  <Route path='/Star-Wars:O-Retorno-de-Jedi' element={<StarWars6page/>}/>*/
+  {nome:"Openheimer", rota:"#Openheimer"},
+  {nome:"As Branquelas", rota: "#As-Branquelas"},
+  {nome:'Vingadores Guerra Infinita' , rota: '#Vingadores-Guerra-Infinita'},
+  {nome:"Blade Runner 2049", rota:'#Blade-Runner-2049'},
+  {nome:'Ilha do Medo', rota:'#Ilha-do-Medo'},
+  {nome:'Inimigos Publicos', rota:'#Inimigos-Publicos'},
+  {nome:'O irlandes', rota:'#O-irlandes'},
+  {nome:'Super Mario', rota:'#Super-Mario'},
+  {nome:'O Prototipo', rota:'#O-Prototipo'},
+  {nome:'Sem Rastros', rota: '#Sem-Rastros'},
+  {nome:'V de Vingança', rota:'#V-de-Vingança'},
+  {nome:'A Bruxa', rota:'#A-Bruxa'},
+  {nome:'Matrix', rota:'#Matrix'},
+  {nome:'Os Suspeitos', rota:'#Os-Suspeitos'},
+  {nome:'Seven Os Sete Crimes Capitais', rota:'#Seven-Os-Sete-Crimes-Capitais'},
+  {nome:'Um Sonho de Liberdade', rota:'#Um-Sonho-de-Liberdade'},
+  {nome:'Pulp Fiction Tempo de Violencia', rota:'#Pulp-Fiction-Tempo-de-Violencia'},
+  {nome:'De Volta para o Futuro', rota:'#De-Volta-para-o-Futuro'},
+  {nome:'O Silencio dos Inocentes', rota:'#O-Silencio-dos-Inocentes'},
+  {nome:'Clube Da Luta', rota:'#Clube-Da-Luta'},/*
+  {nome:'Brilho Eterno de uma Mente Sem Lembrancas', rota:'#Brilho-Eterno-de-uma-Mente-Sem-Lembrancas'},
+  {nome:'Indiana Jones Os Cacadores da Arca Perdida', rota:'#Indiana-Jones-Os-Cacadores-da-Arca-Perdida'},
+  {nome:'Indiana Jones e a Ultima Cruzada', rota:'#Indiana-Jones-e-a-Ultima-Cruzada'},
+  {nome:'Brilho Eterno de uma Mente Sem Lembrancas', rota:'#Indiana-Jones-e-o-Templo-da-Perdicao'},
+  {nome:'Brilho Eterno de uma Mente Sem Lembrancas', rota:'#Indiana-Jones-e-o-Reino-da-Caveira-de-Cristal'},
+  {nome:'Brilho Eterno de uma Mente Sem Lembrancas', rota:'#Indiana-Jones-e-A-Reliquia-do-Destino'},
+  {nome:'Brilho Eterno de uma Mente Sem Lembrancas', rota:'#Velozes-&-Furiosos'},
+  {nome:'Brilho Eterno de uma Mente Sem Lembrancas', rota:'#+Velozes-+Furiosos'},
+  {nome:'Brilho Eterno de uma Mente Sem Lembrancas', rota:'#Velozes-&-Furiosos:Desafio-em-Toquio'},
+  {nome:'Brilho Eterno de uma Mente Sem Lembrancas', rota:'#Velozes-&-Furiosos4'},
+  {nome:'Brilho Eterno de uma Mente Sem Lembrancas', rota:'#Velozes-&-Furiosos5:Operacao-Rio'},
+  {nome:'Brilho Eterno de uma Mente Sem Lembrancas', rota:'#Velozes-&-Furiosos6'},
+  {nome:'Brilho Eterno de uma Mente Sem Lembrancas', rota:'#Velozes-&-Furiosos7'},
+  {nome:'Brilho Eterno de uma Mente Sem Lembrancas', rota:'#Velozes-&-Furiosos8' },
+  {nome:'Brilho Eterno de uma Mente Sem Lembrancas', rota:'#Velozes-&-Furiosos9' },
+  {nome:'Brilho Eterno de uma Mente Sem Lembrancas', rota:'#Velozes-&-Furiosos10'},
+  {nome:'Brilho Eterno de uma Mente Sem Lembrancas', rota:'#Harry-Potter-e-a-Pedra-Filosofal'},
+  {nome:'Brilho Eterno de uma Mente Sem Lembrancas', rota:'#Harry-Potter-e-a-Camara-Secreta'},
+  {nome:'Brilho Eterno de uma Mente Sem Lembrancas', rota:'#Harry-Potter-e-o-Prisioneiro-de-Azkaban'},
+  {nome:'Brilho Eterno de uma Mente Sem Lembrancas', rota:'#Harry-Potter-e-o-Calice-de-Fogo'},
+  {nome:'Brilho Eterno de uma Mente Sem Lembrancas', rota:'#Harry-Potter-e-o-Enigma-do-Principe'},
+  {nome:'Brilho Eterno de uma Mente Sem Lembrancas', rota:'#Harry-Potter-e-a-Ordem-da-Fenix'},
+  {nome:'Brilho Eterno de uma Mente Sem Lembrancas', rota:'#Harry-Potter-e-as-Reliquias-da-Morte-Parte1'},
+  {nome:'Brilho Eterno de uma Mente Sem Lembrancas', rota:'#Harry-Potter-e-as-Reliquias-da-Morte-Parte2'},
+  {nome:'Brilho Eterno de uma Mente Sem Lembrancas', rota:'#Para-Todos-os-Garotos-que-Ja-Amei'},
+  {nome:'Brilho Eterno de uma Mente Sem Lembrancas', rota:'#Para-Todos-Os-Garotos:PS-Ainda-Amo-Voce'},
+  {nome:'Brilho Eterno de uma Mente Sem Lembrancas', rota:'#Para-Todos-os-Garotos3'},
+  {nome:'Brilho Eterno de uma Mente Sem Lembrancas', rota:'#Shrek'},
+  {nome:'Brilho Eterno de uma Mente Sem Lembrancas', rota:'#Shrek2'},
+  {nome:'Brilho Eterno de uma Mente Sem Lembrancas', rota:'#Shrek3'},
+  {nome:'Brilho Eterno de uma Mente Sem Lembrancas', rota:'#Shrek-para-Sempre'},
+  {nome:'Brilho Eterno de uma Mente Sem Lembrancas', rota:'#Senhor-dos-Aneis-A-Sociedade-do-Anel'},
+  {nome:'Brilho Eterno de uma Mente Sem Lembrancas', rota:'#Senhor-dos-Aneis-As-Duas-Torres'},
+  {nome:'Brilho Eterno de uma Mente Sem Lembrancas', rota:'#Senhor-dos-Aneis-O-Retorno-do-Rei'},
+  {nome:'Brilho Eterno de uma Mente Sem Lembrancas', rota:'#Star-Wars:A-Ameaça-Fantasma'},
+  {nome:'Brilho Eterno de uma Mente Sem Lembrancas', rota:'#Star-Wars:Ataque-dos-Clones'},
+  {nome:'Brilho Eterno de uma Mente Sem Lembrancas', rota:'#Star-Wars:A-Vingança-dos-Sith'},
+  {nome:'Brilho Eterno de uma Mente Sem Lembrancas', rota:'#Star-Wars:Uma-Nova-Esperança'},
+  {nome:'Brilho Eterno de uma Mente Sem Lembrancas', rota:'#Star-Wars:O-Imperio-Contra-ataca'},
+  {nome:'Brilho Eterno de uma Mente Sem Lembrancas', rota:'#Star-Wars:O-Retorno-de-Jedi'},*/
 ]
     
 function Header(){
@@ -112,7 +112,7 @@ function Header(){
         <img src={logo} className='lg'/>
         <li className='list1'>
           <a href="/"><p className='hb1'>P.inicial</p></a>
-          <li className="dropd1">
+          <li className="dropd">
             <a>Gêneros</a>
             <div className="dropd-m">
 
