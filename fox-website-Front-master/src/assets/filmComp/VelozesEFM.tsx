@@ -1,14 +1,14 @@
 import star  from "../imgs/starating_1.png";
 import mstar from "../imgs/stars.png";
 import photo from"../imgs/VEFMp.webp";
-import "./VelozesEFM.css";
+
 
 function VelozesEFM(){
     return(
     <>
 
     <div className='itemsr1'>
-            <a href="#/+Velozes-+Furiosos">
+            <a href="#+Velozes-+Furiosos">
             <img className='it1f' src={photo}/>
     <div className='des1'>
                 <p className='tl1'>+ Velozes + Furiosos</p>

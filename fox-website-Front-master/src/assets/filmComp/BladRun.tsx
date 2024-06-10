@@ -1,5 +1,5 @@
-import star  from "../imgs/starating_1.png";
-import mstar from "../imgs/stars.png";
+import star  from"../imgs/stars.png";
+import mstar from"../imgs/meia-star.svg";
 import blru from '../imgs/81+aXKMlwoL._SL1400_.jpg';
 
 
@@ -7,7 +7,7 @@ function BLR (){
     return(
 <>
     <div className='itemsr1'>
-        <a href="#/Blade-Runner-2049">
+        <a href="#Blade-Runner-2049">
                 <img className='it1f' src={blru}/>
     <div className='des1'>
                     <p className='tl1'>Blade Runner</p>
@@ -18,10 +18,7 @@ function BLR (){
                 <img className='st1' src={star}/>
                 <img className='st1' src={star}/>
                 <img className='st1' src={star}/>
-                <img className='st1' src={mstar}/>
-
-         
-
+                <img className='st2' src={mstar}/>
                 </div>
             </div>
         </div>

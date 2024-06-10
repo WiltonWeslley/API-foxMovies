@@ -1,16 +1,16 @@
-import star  from "../imgs/starating_1.png";
-import mstar from "../imgs/stars.png";
-import photo from"../imgs/Sevenp.webp";
+import star  from"../imgs/stars.png";
+import mstar from"../imgs/meia-star.svg";
+import photo from"../imgs/SW1p.jpg";
 
-function Seven(){
+function StarWars1(){
     return(
     <>
 
     <div className='itemsr1'>
-            <a href="#/Seven-Os-Sete-Crimes-Capitais">
+            <a href="#Star-Wars:A-Ameaça-Fantasma">
             <img className='it1f' src={photo}/>
     <div className='des1'>
-                <p className='tl1'>Seven - Os Sete Crimes Capitais</p>
+                <p className='tl1'>Star Wars: A Ameaça Fantasma</p>
     <div className='imdb'>
                 <p>4,5</p>
     <div className='sti'>
@@ -19,9 +19,6 @@ function Seven(){
             <img className='st1' src={star}/>
             <img className='st1' src={star}/>
             <img className='st1' src={mstar}/>
-
-           
-
                 </div>
             </div>
         </div>
@@ -31,4 +28,4 @@ function Seven(){
 
 )}
 
-export default Seven
+export default StarWars1

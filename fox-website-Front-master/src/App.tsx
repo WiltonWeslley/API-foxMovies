@@ -3,6 +3,8 @@ import './App.css'
 import MainPage               from './Pages/mainPage';
 import Loogin                 from './Pages/loogin';
 import Movies                 from './Pages/movies';
+import Movies2                from './Pages/movies2';
+import Movies3                from './Pages/movies3';
 import VDVpage                from './assets/FilmPages/VDVpage';
 import AsBpage                from './assets/FilmPages/AsBpage';
 import Avngrspage             from './assets/FilmPages/Avngrspage';
@@ -64,6 +66,8 @@ import VelozesEFpage          from './assets/FilmPages/VelozesEFpage';
   import StarWars3page        from './assets/FilmPages/StarWars3page';
   import StarWars5page        from './assets/FilmPages/StarWars5page';
   import StarWars6page        from './assets/FilmPages/StarWars6page';
+  import Comediapage          from './Pages/Comedia';
+import Policiapage from './Pages/Policial';
 
 
 function App() {
@@ -73,7 +77,13 @@ function App() {
       <Route path='/login' element={<Loogin/>}/>
       <Route path='/' element={<MainPage/>}/>
       <Route path='/movies' element={<Movies/>}/>
+      <Route path='/movies-2' element={<Movies2/>}/>
+      <Route path='/movies-3' element={<Movies3/>}/>
 
+      <Route path='/comedia' element={<Comediapage/>}/>
+      <Route path='/Policial' element={<Policiapage/>}/>
+      <Route path='/terror' element={<Movies/>}/>
+      <Route path='/terror' element={<Movies/>}/>
       <Route path='/terror' element={<Movies/>}/>
       <Route path='/ação' element={<Movies/>}/>
 

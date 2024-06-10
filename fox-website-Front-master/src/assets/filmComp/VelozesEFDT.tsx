@@ -7,7 +7,7 @@ function VelozesEFDT(){
     <>
 
     <div className='itemsr1'>
-            <a href="#/Velozes-&-Furiosos:Desafio-em-Toquio">
+            <a href="#Velozes-&-Furiosos:Desafio-em-Toquio">
             <img className='it1f' src={photo}/>
     <div className='des1'>
                 <p className='tl1'>Velozes & Furiosos: Desafio em Tóquio </p>

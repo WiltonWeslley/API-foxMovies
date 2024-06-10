@@ -1,12 +1,12 @@
-import star  from "../imgs/starating_1.png";
-import mstar from "../imgs/stars.png";
+import star  from"../imgs/stars.png";
+import mstar from"../imgs/meia-star.svg";
 import varse from "../imgs/matrix.jpg";
 
 function Matr(){
     return(
         <>
             <div className='itemsr1'>
-            <a href="#/Matrix">
+            <a href="#Matrix">
               <img className='it1f' src={varse}/>
               <div className='des1'>
                   <p className='tl1'>Matrix</p>
@@ -18,7 +18,6 @@ function Matr(){
                     <img className='st1' src={star}/>
                     <img className='st1' src={star}/>
                     <img className='st1' src={mstar}/>
-                    
                     </div>
                   </div>
               </div>

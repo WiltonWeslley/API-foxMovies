@@ -33,13 +33,6 @@ function Recomends(){
                   <IniP/>
                   <IdM/>
                   <VDV/>
-
-    <div className="mrq1">
-
-    </div>
-    
-
-       
   </li>
 </div>
       </>

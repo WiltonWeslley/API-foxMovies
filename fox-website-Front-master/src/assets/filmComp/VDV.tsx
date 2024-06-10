@@ -1,5 +1,5 @@
-import star  from "../imgs/starating_1.png";
-import mstar from "../imgs/stars.png";
+import star  from"../imgs/stars.png";
+import mstar from "../imgs/meia-star.svg";
 import varse from "../imgs/V-for-Vendetta-.jpg";
 
 
@@ -10,7 +10,7 @@ function VDV(){
         <>
           
             <div className='itemsr1'>
-              <a href="#/V-de-Vingança">
+              <a href="#V-de-Vingança">
               <img className='it1f' src={varse}/>
               <div className='des1'>
                   <p className='tl1'>V-de-Vingança</p>
@@ -22,9 +22,6 @@ function VDV(){
                     <img className='st1' src={star}/>
                     <img className='st1' src={star}/>
                     <img className='st1' src={mstar}/>
-
-                    
-
                     </div>
                   </div>
               </div>

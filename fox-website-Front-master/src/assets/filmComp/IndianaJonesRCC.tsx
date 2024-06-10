@@ -1,13 +1,13 @@
-import star  from "../imgs/starating_1.png";
-import mstar from "../imgs/stars.png";
+import star  from"../imgs/stars.png";
+import mstar from"../imgs/meia-star.svg";
 import photo from"../imgs/IJRCCp.jpg";
 
-function Seven(){
+function IndianaJonesRCC(){
     return(
     <>
 
     <div className='itemsr1'>
-            <a href="#/Indiana-Jones-e-o-Reino-da-Caveira-de-Cristal">
+            <a href="#Indiana-Jones-e-o-Reino-da-Caveira-de-Cristal">
             <img className='it1f' src={photo}/>
     <div className='des1'>
                 <p className='tl1'>Indiana Jones e o Reino da Caveira de Cristal</p>
@@ -18,9 +18,7 @@ function Seven(){
             <img className='st1' src={star}/>
             <img className='st1' src={star}/>
             <img className='st1' src={star}/>
-            <img className='st1' src={mstar}/>
-
-            
+            <img className='st2' src={mstar}/>
                 </div>
             </div>
         </div>
@@ -30,4 +28,4 @@ function Seven(){
 
 )}
 
-export default Seven
+export default IndianaJonesRCC
