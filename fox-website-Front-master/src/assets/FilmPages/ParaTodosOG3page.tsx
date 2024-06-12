@@ -49,9 +49,9 @@ function ParaTodosOG3page(){
                 <div className="PFcont3">
                 <div className="PFgeneros">
                     <p className="PFgeneros2">Generos</p>
-                    <a href="" target="_blank">Comédia</a>
-                    <a href="" target="_blank">Drama</a>
-                    <a href="" target="_blank">Romance</a>
+                    <a href="#comedia" target="_blank">Comédia</a>
+                    <a href="#drama" target="_blank">Drama</a>
+                    <a href="#romance" target="_blank">Romance</a>
                 </div>
                 <div className="PFplayer">
                     <p>PLayers</p>

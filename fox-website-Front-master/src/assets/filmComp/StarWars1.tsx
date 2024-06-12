@@ -7,7 +7,7 @@ function StarWars1(){
     <>
 
     <div className='itemsr1'>
-            <a href="#Star-Wars:A-Ameaça-Fantasma">
+            <a href="#Star-Wars:A-Ameaca-Fantasma">
             <img className='it1f' src={photo}/>
     <div className='des1'>
                 <p className='tl1'>Star Wars: A Ameaça Fantasma</p>

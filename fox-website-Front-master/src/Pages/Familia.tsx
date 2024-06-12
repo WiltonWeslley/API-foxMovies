@@ -4,6 +4,9 @@ import Footer from "../assets/Components/Footer";
 import HarryPotterOF from "../assets/filmComp/HarryPotterOF";
 import HarryPotterPF from "../assets/filmComp/HarryPotterPF";
 import MARIO from "../assets/filmComp/MARIO";
+import Shrek from "../assets/filmComp/Shrek";
+import Shrek2 from "../assets/filmComp/Shrek2";
+import ShrekPS from "../assets/filmComp/ShrekPS";
 
 
 
@@ -20,6 +23,9 @@ function Familiapage(){
            <HarryPotterOF/>
            <HarryPotterPF/>
            <MARIO/>
+           <Shrek/>
+           <Shrek2/>
+           <ShrekPS/>
 
         </div>
 

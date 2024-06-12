@@ -50,8 +50,8 @@ function BrilhoEDSLpage(){
                 <div className="PFgeneros">
                     <p className="PFgeneros2">Generos</p>
                     
-                    <a href="" target="_blank">Drama</a>
-                    <a href="" target="_blank">Ficção Científica</a>
+                    <a href="#drama" target="_blank">Drama</a>
+                    <a href="#ficcao" target="_blank">Ficção Científica</a>
                 </div>
                 <div className="PFplayer">
                     <p>PLayers</p>

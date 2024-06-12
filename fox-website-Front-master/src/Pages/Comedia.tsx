@@ -7,6 +7,10 @@ import MARIO from "../assets/filmComp/MARIO";
 import ParaTodosOG from "../assets/filmComp/ParaTodosOG";
 import ParaTodosOGPS from "../assets/filmComp/ParaTodosOGPS";
 import ParaTodosOG3 from "../assets/filmComp/ParaTodosOG3";
+import Shrek from "../assets/filmComp/Shrek";
+import Shrek2 from "../assets/filmComp/Shrek2";
+import Shrek3 from "../assets/filmComp/Shrek3";
+import ShrekPS from "../assets/filmComp/ShrekPS";
 
 
 function Comediapage(){
@@ -24,6 +28,10 @@ function Comediapage(){
             <ParaTodosOG/>
             <ParaTodosOGPS/>
             <ParaTodosOG3/>
+            <Shrek/>
+            <Shrek2/>
+            <Shrek3/>
+            <ShrekPS/>
             
             
         </div>

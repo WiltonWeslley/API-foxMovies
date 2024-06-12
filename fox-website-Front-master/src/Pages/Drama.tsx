@@ -8,6 +8,9 @@ import IniP from "../assets/filmComp/IniP";
 import OSilencioDI from "../assets/filmComp/OSilencioDI";
 import ParaTodosOG3 from "../assets/filmComp/ParaTodosOG3";
 import PulpFict from "../assets/filmComp/PulpFict";
+import Seven from "../assets/filmComp/Seven";
+import SonhodL from "../assets/filmComp/SonhodL";
+import SRs from "../assets/filmComp/SR";
 
 
 
@@ -27,6 +30,9 @@ function Dramapage(){
             <OSilencioDI/>
             <ParaTodosOG3/>
             <PulpFict/>
+            <Seven/>
+            <SonhodL/>
+            <SRs/>
         </div>
 
         {/*<div className="PMpP">

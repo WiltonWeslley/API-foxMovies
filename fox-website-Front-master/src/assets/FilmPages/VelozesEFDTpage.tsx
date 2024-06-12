@@ -49,8 +49,9 @@ function VelozesEFDTpage(){
                 <div className="PFcont3">
                 <div className="PFgeneros">
                     <p className="PFgeneros2">Generos</p>
-                    <a href="" target="_blank">Policial</a>
-                    <a href="" target="_blank">Ação</a>
+                    <a href="#acao" target="_blank">Ação</a>
+                    <a href="#policial" target="_blank">Policial</a>
+                    
                 </div>
                 <div className="PFplayer">
                     <p>PLayers</p>

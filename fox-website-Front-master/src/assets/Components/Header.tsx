@@ -74,7 +74,7 @@ const search : Search[] = [
   {nome:'Senhor dos Aneis:A Sociedade do Anel', rota:'#Senhor-dos-Aneis-A-Sociedade-do-Anel'},
   {nome:'Senhor dos Aneis:As Duas Torres', rota:'#Senhor-dos-Aneis-As-Duas-Torres'},
   {nome:'Senhor dos Aneis:O Retorno do Rei', rota:'#Senhor-dos-Aneis-O-Retorno-do-Rei'},
-  {nome:'Star Wars:A Ameaça Fantasma', rota:'#Star-Wars:A-Ameaça-Fantasma'},
+  {nome:'Star Wars:A Ameaça Fantasma', rota:'#Star-Wars:A-Ameaca-Fantasma'},
   {nome:'Star Wars:Ataque dos Clones', rota:'#Star-Wars:Ataque-dos-Clones'},
   {nome:'Star Wars:A Vingança dos Sith', rota:'#Star-Wars:A-Vingança-dos-Sith'},
   {nome:'Star Wars:Uma Nova Esperança', rota:'#Star-Wars:Uma-Nova-Esperança'},
@@ -116,25 +116,43 @@ function Header(){
             <a>Gêneros</a>
             <div className="dropd-m">
 
-                <a href="#/terror" className="horror">Terror <li>
+                <a href="#acao" className="classeGen">Ação <li>
                   <Link to=""></Link></li></a>
 
-                <a href="#/ação" className="shots">Ação <li>
+                <a href="#animacao" className="classeGen">Animação <li>
                   <Link to=""></Link></li></a>
 
-                <a href="#/comédia" className="funny">Comédia <li>
+                <a href="#aventura" className="classeGen">Aventura <li>
                   <Link to=""></Link></li></a>
 
-                <a href="#/policial" className="cops">Policial <li>
+                <a href="#biografia" className="classeGen">Biografia <li>
                   <Link to=""></Link></li></a>
 
-                <a href="#/sci-fi" className="nerd">Ficção Científica <li>
+                <a href="#comedia" className="classeGen">Comédia <li>
                   <Link to=""></Link></li></a>
 
-                <a href="#/suspense" className="suspense">Suspense <li>
+                <a href="#drama" className="classeGen">Drama <li>
                   <Link to=""></Link></li></a>
 
-                <a href="#/drama" className="drama">Drama <li>
+                <a href="#familia" className="classeGen">Família<li>
+                  <Link to=""></Link></li></a>
+
+                <a href="#fantasia" className="classeGen">Fantasia <li>
+                  <Link to=""></Link></li></a>
+
+                <a href="#ficcao" className="classeGen">Ficção Científica <li>
+                  <Link to=""></Link></li></a>
+
+                <a href="#policial" className="classeGen">Policial <li>
+                  <Link to=""></Link></li></a>
+
+                <a href="#romance" className="classeGen">Romance <li>
+                  <Link to=""></Link></li></a>
+
+                <a href="#suspence" className="classeGen">Suspence <li>
+                  <Link to=""></Link></li></a>
+
+                <a href="#terror" className="classeGen">Terror <li>
                   <Link to=""></Link></li></a>
 
             </div>
@@ -151,11 +169,11 @@ function Header(){
             
         </div>
 
-        <div>
+        <div className="resultBuscaFilmPs">
         {isNameFiltered &&
           <ul>
             {filteredSearch.map((item) => (
-              <a href={item.rota}><li key={item.nome}>{item.rota}</li></a>
+              <a href={item.rota}><li key={item.nome} className="resultBuscaFilm">{item.nome}</li></a>
             ))}
           </ul>
           }

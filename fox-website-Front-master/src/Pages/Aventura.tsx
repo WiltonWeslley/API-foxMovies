@@ -14,6 +14,16 @@ import IndianaJonesCDAP from "../assets/filmComp/IndianaJonesCDAP";
 import IndianaJonesRCC from "../assets/filmComp/IndianaJonesRCC";
 import IndianaJonesTP from "../assets/filmComp/IndianaJonesTP";
 import IndianaJonesUC from "../assets/filmComp/IndianaJonesUC";
+import SenhorDosA from "../assets/filmComp/SenhorDosA";
+import SenhorDosADT from "../assets/filmComp/SenhorDosADT";
+import SenhorDosARDR from "../assets/filmComp/SenhorDosARDR";
+import StarWars1 from "../assets/filmComp/StarWars1";
+import StarWars2 from "../assets/filmComp/StarWars2";
+import StarWars3 from "../assets/filmComp/StarWars3";
+import StarWars4 from "../assets/filmComp/StarWars4";
+import StarWars5 from "../assets/filmComp/StarWars5";
+import StarWars6 from "../assets/filmComp/StarWars6";
+import VelozesEFM from "../assets/filmComp/VelozesEFM";
 
 
 function Aventurapage(){
@@ -38,6 +48,16 @@ function Aventurapage(){
             <IndianaJonesRCC/>
             <IndianaJonesTP/>
             <IndianaJonesUC/>
+            <SenhorDosA/>
+            <SenhorDosADT/>
+            <SenhorDosARDR/>
+            <StarWars1/>
+            <StarWars2/>
+            <StarWars3/>
+            <StarWars4/>
+            <StarWars5/>
+            <StarWars6/>
+            <VelozesEFM/>
         </div>
 
         {/*<div className="PMpP">

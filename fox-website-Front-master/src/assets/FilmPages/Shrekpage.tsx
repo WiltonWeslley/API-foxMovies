@@ -49,10 +49,10 @@ function Shrekpage(){
                 <div className="PFcont3">
                 <div className="PFgeneros">
                     <p className="PFgeneros2">Generos</p>
-                    <a href="" target="_blank">Animação</a>
-                    <a href="" target="_blank">Comédia</a>
-                    <a href="" target="_blank">Família</a>
-                    <a href="" target="_blank">Fantasia</a>
+                    <a href="#animacao" target="_blank">Animação</a>
+                    <a href="#comedia" target="_blank">Comédia</a>
+                    <a href="#familia" target="_blank">Família</a>
+                    <a href="#fantasia" target="_blank">Fantasia</a>
                 </div>
                 <div className="PFplayer">
                     <p>PLayers</p>

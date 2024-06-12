@@ -6,6 +6,9 @@ import IniP from "../assets/filmComp/IniP";
 import OSilencioDI from "../assets/filmComp/OSilencioDI";
 import OsSuspeitos from "../assets/filmComp/OsSuspeitos";
 import PulpFict from "../assets/filmComp/PulpFict";
+import Seven from "../assets/filmComp/Seven";
+import VelozesEF from "../assets/filmComp/VelozesEF";
+import VelozesEFDT from "../assets/filmComp/VelozesEFDT";
 
 function Policiapage(){
     return(
@@ -21,6 +24,9 @@ function Policiapage(){
             <OSilencioDI/>
             <OsSuspeitos/>
             <PulpFict/>
+            <Seven/>
+            <VelozesEF/>
+            <VelozesEFDT/>
             
         </div>
 

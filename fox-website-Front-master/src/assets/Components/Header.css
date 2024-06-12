@@ -119,4 +119,25 @@
     color: #470c94;
   }
 
+  .resultBuscaFilm{
+    list-style: none;
+    color: #470c94;
+    background-color:  #d5cbe473 ;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    bleed: 1px;
+    border-radius: 8px;
+    margin-top: 2%;
+    z-index: +15;
+  }
+
+  .resultBuscaFilmPs{
+    
+    padding-left: 15%;
+    padding-top: 2%;
+    z-index: 1;
+    position: relative;
+    
+  }
 

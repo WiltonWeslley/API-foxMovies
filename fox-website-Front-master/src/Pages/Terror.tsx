@@ -1,27 +1,18 @@
 import "./movies.css";
 import Header from "../assets/Components/Header";
 import Footer from "../assets/Components/Footer";
-import MARIO from "../assets/filmComp/MARIO";
-import Shrek from "../assets/filmComp/Shrek";
-import Shrek2 from "../assets/filmComp/Shrek2";
-import Shrek3 from "../assets/filmComp/Shrek3";
-import ShrekPS from "../assets/filmComp/ShrekPS";
+import WITCH from "../assets/filmComp/WITCH";
 
-function Animacaopage(){
+function Terrorpage(){
     return(
 
-        <>
+    <>
         <div className="PMm">
             <div className="PMheader">
         <Header/>
             </div>
         <div className="PMcont">
-        <MARIO/>
-        <Shrek/>
-        <Shrek2/>
-        <Shrek3/>
-        <ShrekPS/>
-            
+            <WITCH/>
         </div>
 
         {/*<div className="PMpP">
@@ -32,9 +23,7 @@ function Animacaopage(){
             <Footer/>
         </div>
         </div>
-        </>
+    </>
+)}
 
-    )
-}
-
-export default Animacaopage
+export default Terrorpage

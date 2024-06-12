@@ -8,6 +8,8 @@ import IRLND from "../assets/filmComp/IRLND";
 import OPh from "../assets/filmComp/Openheimer";
 import OSilencioDI from "../assets/filmComp/OSilencioDI";
 import OsSuspeitos from "../assets/filmComp/OsSuspeitos";
+import Seven from "../assets/filmComp/Seven";
+import VelozesEF5 from "../assets/filmComp/VelozesEF5";
 
 
 
@@ -27,6 +29,8 @@ function Suspencepage(){
             <OPh/>
             <OSilencioDI/>
             <OsSuspeitos/>
+            <Seven/>
+            <VelozesEF5/>
             
         </div>
 

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Header from "../Components/Header";
 import "./VDVpage.css";
-import varse from "../imgs/V-for-Vendetta-.jpg";
+import varse from "../imgs/VeF9p.jpg";
 import axios from "axios";
 import Footer from "../Components/Footer";
 import PFCfoto from "../imgs/user.svg";
@@ -49,9 +49,8 @@ function VelozesEF9page(){
                 <div className="PFcont3">
                 <div className="PFgeneros">
                     <p className="PFgeneros2">Generos</p>
-                    <a href="" target="_blank">Policial</a>
-                    <a href="" target="_blank">Drama</a>
-                    <a href="" target="_blank">Suspence</a>
+                    <a href="#acao" target="_blank">Ação</a>
+                    
                 </div>
                 <div className="PFplayer">
                     <p>PLayers</p>

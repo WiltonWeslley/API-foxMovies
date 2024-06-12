@@ -5,6 +5,19 @@ import Loogin                 from './Pages/loogin';
 import Movies                 from './Pages/movies';
 import Movies2                from './Pages/movies2';
 import Movies3                from './Pages/movies3';
+import Comediapage            from './Pages/Comedia';
+import Policiapage            from './Pages/Policial';
+import Acaopage               from './Pages/Acao';
+import Aventurapage           from './Pages/Aventura';
+import Biografiapage          from './Pages/biografia';
+import Dramapage              from './Pages/Drama';
+import Familiapage            from './Pages/Familia';
+import Fantasiapage           from './Pages/Fantasia';
+import Ficcaopage             from './Pages/Ficcao';
+import Animacaopage           from './Pages/animacao';
+import Romancepage            from './Pages/Romance';
+import Suspencepage           from './Pages/Suspence';
+import Terrorpage             from './Pages/Terror';
 import VDVpage                from './assets/FilmPages/VDVpage';
 import AsBpage                from './assets/FilmPages/AsBpage';
 import Avngrspage             from './assets/FilmPages/Avngrspage';
@@ -33,41 +46,39 @@ import IndianaJonesTPpage     from './assets/FilmPages/IndianaJonesTPpage';
 import IndianaJonesRCCpage    from './assets/FilmPages/IndianaJonesRCCpage';
 import IndianaJonesARDpage    from './assets/FilmPages/IndianaJonesARDpage';
 import VelozesEFpage          from './assets/FilmPages/VelozesEFpage';
-  import VelozesEFMpage       from './assets/FilmPages/VelozesEFMpage';
-  import VelozesEFDTpage      from './assets/FilmPages/VelozesEFDTpage';
-  import VelozesEF4page       from './assets/FilmPages/VelozesEF4page';
-  import VelozesEF5page       from './assets/FilmPages/VelozesEF5page';
-  import VelozesEF6page       from './assets/FilmPages/VelozesEF6page';
-  import VelozesEF7page       from './assets/FilmPages/VelozesEF7page';
-  import VelozesEF8page       from './assets/FilmPages/VelozesEF8page';
-  import VelozesEF9page       from './assets/FilmPages/VelozesEF9page';
-  import VelozesEF10page      from './assets/FilmPages/VelozesEF10page';
-  import HarryPotterPFpage    from './assets/FilmPages/HarryPotterPFpage';
-  import HarryPotterCSpage    from './assets/FilmPages/HarryPotterCSpage';
-  import HarryPotterPApage    from './assets/FilmPages/HarryPotterPApage';
-  import HarryPotterCFpage    from './assets/FilmPages/HarryPotterCFpage';
-  import HarryPotterEPpage    from './assets/FilmPages/HarryPotterEPpage';
-  import HarryPotterOFpage    from './assets/FilmPages/HarryPotterOFpage';
-  import HarryPotterRM1page   from './assets/FilmPages/HarryPotterRM1page';
-  import HarryPotterRM2page   from './assets/FilmPages/HarryPotterRM2page';
-  import ParaTodosOGpage      from './assets/FilmPages/ParaTodosOGpage';
-  import ParaTodosOGPSpage    from './assets/FilmPages/ParaTodosOGPSpage';
-  import ParaTodosOG3page     from './assets/FilmPages/ParaTodosOG3page';
-  import Shrekpage            from './assets/FilmPages/Shrekpage';
-  import Shrek2page           from './assets/FilmPages/Shrek2page';
-  import Shrek3page           from './assets/FilmPages/Shrek3page';
-  import ShrekPSpage          from './assets/FilmPages/ShrekPSpage';
-  import SenhorDosApage       from './assets/FilmPages/SenhorDosApage';
-  import SenhorDosADTpage     from './assets/FilmPages/SenhorDosADTpage';
-  import SenhorDosARDRpage    from './assets/FilmPages/SenhorDosARDRpage';
-  /*import StarWars1page        from './assets/FilmPages/StarWars1page';*/
-  import StarWars2page        from './assets/FilmPages/StarWars2page';
-  import StarWars4page        from './assets/FilmPages/StarWars4page';
-  import StarWars3page        from './assets/FilmPages/StarWars3page';
-  import StarWars5page        from './assets/FilmPages/StarWars5page';
-  import StarWars6page        from './assets/FilmPages/StarWars6page';
-  import Comediapage          from './Pages/Comedia';
-import Policiapage from './Pages/Policial';
+import VelozesEFMpage         from './assets/FilmPages/VelozesEFMpage';
+import VelozesEFDTpage        from './assets/FilmPages/VelozesEFDTpage';
+import VelozesEF4page         from './assets/FilmPages/VelozesEF4page';
+import VelozesEF5page         from './assets/FilmPages/VelozesEF5page';
+import VelozesEF6page         from './assets/FilmPages/VelozesEF6page';
+import VelozesEF7page         from './assets/FilmPages/VelozesEF7page';
+import VelozesEF8page         from './assets/FilmPages/VelozesEF8page';
+import VelozesEF9page         from './assets/FilmPages/VelozesEF9page';
+import VelozesEF10page        from './assets/FilmPages/VelozesEF10page';
+import HarryPotterPFpage      from './assets/FilmPages/HarryPotterPFpage';
+import HarryPotterCSpage      from './assets/FilmPages/HarryPotterCSpage';
+import HarryPotterPApage      from './assets/FilmPages/HarryPotterPApage';
+import HarryPotterCFpage      from './assets/FilmPages/HarryPotterCFpage';
+import HarryPotterEPpage      from './assets/FilmPages/HarryPotterEPpage';
+import HarryPotterOFpage      from './assets/FilmPages/HarryPotterOFpage';
+import HarryPotterRM1page     from './assets/FilmPages/HarryPotterRM1page';
+import HarryPotterRM2page     from './assets/FilmPages/HarryPotterRM2page';
+import ParaTodosOGpage        from './assets/FilmPages/ParaTodosOGpage';
+import ParaTodosOGPSpage      from './assets/FilmPages/ParaTodosOGPSpage';
+import ParaTodosOG3page       from './assets/FilmPages/ParaTodosOG3page';
+import Shrekpage              from './assets/FilmPages/Shrekpage';
+import Shrek2page             from './assets/FilmPages/Shrek2page';
+import Shrek3page             from './assets/FilmPages/Shrek3page';
+import ShrekPSpage            from './assets/FilmPages/ShrekPSpage';
+import SenhorDosApage         from './assets/FilmPages/SenhorDosApage';
+import SenhorDosADTpage       from './assets/FilmPages/SenhorDosADTpage';
+import SenhorDosARDRpage      from './assets/FilmPages/SenhorDosARDRpage';
+import StarWars1page          from './assets/FilmPages/StarWars1page';
+import StarWars2page          from './assets/FilmPages/StarWars2page';
+import StarWars4page          from './assets/FilmPages/StarWars4page';
+import StarWars3page          from './assets/FilmPages/StarWars3page';
+import StarWars5page          from './assets/FilmPages/StarWars5page';
+import StarWars6page          from './assets/FilmPages/StarWars6page';
 
 
 function App() {
@@ -80,12 +91,19 @@ function App() {
       <Route path='/movies-2' element={<Movies2/>}/>
       <Route path='/movies-3' element={<Movies3/>}/>
 
+      <Route path='/acao' element={<Acaopage/>}/>
+      <Route path='/animacao' element={<Animacaopage/>}/>
+      <Route path='/aventura' element={<Aventurapage/>}/>
+      <Route path='/biografia' element={<Biografiapage/>}/>
       <Route path='/comedia' element={<Comediapage/>}/>
-      <Route path='/Policial' element={<Policiapage/>}/>
-      <Route path='/terror' element={<Movies/>}/>
-      <Route path='/terror' element={<Movies/>}/>
-      <Route path='/terror' element={<Movies/>}/>
-      <Route path='/ação' element={<Movies/>}/>
+      <Route path='/drama' element={<Dramapage/>}/>
+      <Route path='/familia' element={<Familiapage/>}/>
+      <Route path='/fantasia' element={<Fantasiapage/>}/>
+      <Route path='/ficcao' element={<Ficcaopage/>}/>
+      <Route path='/policial' element={<Policiapage/>}/>
+      <Route path='/romance' element={<Romancepage/>}/>
+      <Route path='/suspence' element={<Suspencepage/>}/>
+      <Route path='/terror' element={<Terrorpage/>}/>
 
       <Route path='/As-Branquelas' element={<AsBpage/>}/>
       <Route path='/Vingadores-Guerra-Infinita' element={<Avngrspage/>}/>
@@ -142,6 +160,7 @@ function App() {
       <Route path='/Senhor-dos-Aneis-A-Sociedade-do-Anel' element={<SenhorDosApage/>}/>
       <Route path='/Senhor-dos-Aneis-As-Duas-Torres' element={<SenhorDosADTpage/>}/>
       <Route path='/Senhor-dos-Aneis-O-Retorno-do-Rei' element={<SenhorDosARDRpage/>}/>
+      <Route path='/Star-Wars:A-Ameaca-Fantasma' element={<StarWars1page/>}/>
       <Route path='/Star-Wars:Ataque-dos-Clones' element={<StarWars2page/>}/>
       <Route path='/Star-Wars:A-Vingança-dos-Sith' element={<StarWars3page/>}/>
       <Route path='/Star-Wars:Uma-Nova-Esperança' element={<StarWars4page/>}/>

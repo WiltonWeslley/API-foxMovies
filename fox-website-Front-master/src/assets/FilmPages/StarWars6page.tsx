@@ -49,8 +49,8 @@ function StarWars6page(){
                 <div className="PFcont3">
                 <div className="PFgeneros">
                     <p className="PFgeneros2">Generos</p>
-                    <a href="" target="_blank">Aventura</a>
-                    <a href="" target="_blank">Ficção Científica</a>
+                    <a href="#aventura" target="_blank">Aventura</a>
+                    <a href="#ficcao" target="_blank">Ficção Científica</a>
                     
                 </div>
                 <div className="PFplayer">

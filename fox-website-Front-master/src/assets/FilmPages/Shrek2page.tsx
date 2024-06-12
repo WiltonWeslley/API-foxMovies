@@ -49,9 +49,9 @@ function Shrek2page(){
                 <div className="PFcont3">
                 <div className="PFgeneros">
                     <p className="PFgeneros2">Aventura</p>
-                    <a href="" target="_blank">Animação</a>
-                    <a href="" target="_blank">Comédia</a>
-                    <a href="" target="_blank">Família</a>
+                    <a href="#animacao" target="_blank">Animação</a>
+                    <a href="#comedia" target="_blank">Comédia</a>
+                    <a href="#familia" target="_blank">Família</a>
                 </div>
                 <div className="PFplayer">
                     <p>PLayers</p>

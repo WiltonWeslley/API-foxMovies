@@ -49,7 +49,7 @@ function HarryPotterCFpage(){
                 <div className="PFcont3">
                 <div className="PFgeneros">
                     <p className="PFgeneros2">Generos</p>
-                    <a href="/Fantasia" target="_blank">Fantasia</a>
+                    <a href="#fantasia" target="_blank">Fantasia</a>
                     
                 </div>
                 <div className="PFplayer">

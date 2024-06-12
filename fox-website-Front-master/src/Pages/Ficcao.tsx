@@ -7,6 +7,13 @@ import BrilhoEDSL from "../assets/filmComp/BrilhoEDSL";
 import DeVoltaPF from "../assets/filmComp/DeVoltaPF";
 import Matr from "../assets/filmComp/Matrix";
 import OPt from "../assets/filmComp/OP";
+import StarWars1 from "../assets/filmComp/StarWars1";
+import StarWars2 from "../assets/filmComp/StarWars2";
+import StarWars3 from "../assets/filmComp/StarWars3";
+import StarWars4 from "../assets/filmComp/StarWars4";
+import StarWars5 from "../assets/filmComp/StarWars5";
+import StarWars6 from "../assets/filmComp/StarWars6";
+import VDV from "../assets/filmComp/VDV";
 
 
 function Ficcaopage(){
@@ -24,6 +31,13 @@ function Ficcaopage(){
             <DeVoltaPF/>
             <Matr/>
             <OPt/>
+            <StarWars1/>
+            <StarWars2/>
+            <StarWars3/>
+            <StarWars4/>
+            <StarWars5/>
+            <StarWars6/>
+            <VDV/>
             
         </div>
 
