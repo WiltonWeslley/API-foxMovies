@@ -159,7 +159,7 @@ function Header(){
           </li>
           <Link to="/movies" className='hb1'>Filmes</Link>
         </li>
-        <li>
+        <li className="searchCompl">
         <div className='ps1'>
             
         <input className='ps1i' type="text" placeholder='          procurando por diversão?    ' 

@@ -136,8 +136,17 @@
     
     padding-left: 15%;
     padding-top: 2%;
-    z-index: 1;
+    z-index: 2;
     position: relative;
     
   }
 
+  .searchCompl{
+    padding-left: 0px;
+  }
+
+@media screen and (max-width:1280px) {
+  .header{
+    width: 1280px;
+  }
+}
