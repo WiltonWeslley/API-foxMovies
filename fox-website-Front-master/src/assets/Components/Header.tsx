@@ -113,7 +113,7 @@ function Header(){
         <li className='list1'>
           <a href="/"><p className='hb1'>P.inicial</p></a>
           <li className="dropd">
-            <a>Gêneros</a>
+            <a className="Gen">Gêneros</a>
             <div className="dropd-m">
 
                 <a href="#acao" className="classeGen">Ação <li>
@@ -154,12 +154,12 @@ function Header(){
 
                 <a href="#terror" className="classeGen">Terror <li>
                   <Link to=""></Link></li></a>
-
             </div>
           </li>
           <Link to="/movies" className='hb1'>Filmes</Link>
+          
         </li>
-        <li className="searchCompl">
+        <li>
         <div className='ps1'>
             
         <input className='ps1i' type="text" placeholder='          procurando por diversão?    ' 

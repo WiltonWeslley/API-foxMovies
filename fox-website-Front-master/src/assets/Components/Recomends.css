@@ -1,25 +1,42 @@
+  .body{
+    display: flex;
+    justify-content: left;
+    background:linear-gradient(#000000,#3700ff57); 
+    flex-grow: 1;
+    height: 2000px;
+    width: 100%;
+    overflow: auto;
+  }
+
+.filmesCards{
+  display:flex;
+  justify-content: center;
+  width: 100%;
+
+}
+
 .st1{
     height: 15px;
+    position: relative;
   }
   
   .st2{
-    height: 10px;
-    padding-bottom: 2px;
+    height: 15px;
+    padding-bottom: 0px;
   }
   
   .tl1{
    font-size: 20px;
-   justify-content: center;
+   padding-left: 10%;
+   width: 270px;
    align-items: center;
-   display: flex;
-   font-family: 'Poppins', sans-serif;
+   justify-content: space-around;
+   font-family: monospace;
    color: #eeeeeeea;
+   display: flex;
    white-space: pre-line;
-   width:270px;
-  }
+   animation: 35s slide infinite linear;
 
-  .recomends{
-    background-color:#0000009c;
   }
 
   .tl1 :hover{
@@ -39,16 +56,21 @@
   
 
   .des1{
-    color: rgba(245, 244, 244, 0.87);
+    color: #f5f4f4de;
   }
   
 
   .itemsr{
-    list-style: none;
+    /* list-style: none;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 20px;
+    flex-wrap:wrap;
+    justify-content: space;
+    margin-left: 8px;
+    margin-right: -6px;
+    margin-bottom: 10px;
+    margin-top: -36px; */
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
   }
   
 
@@ -62,18 +84,20 @@
 
   .itemsr1{
     border-radius: 15px;
-    background-color: #181616ad;
+    background-color: #0f0f0fdc;
     margin: 15px;
-    border: 3px solid #1817177c;
+    position: relative;
+    border: 3px solid #494949;
     cursor: pointer;
-    height: 477px;
+    height: 100%;
   }
   
 
   .itemsr1:hover{
-    transition: 0.5s;
-    border-color: #5a47ff;
-    transform: scale(1.05);
+    transition: 0.3s;
+    border-color: #3700ff;
+    transform: scale(1.03);
+    
   }
 
  
@@ -83,20 +107,33 @@
   }
 
   .tt{
-    align-items: center;
+    align-items: left;
     display: flex;
-    align-content: center;
-    color: #5900ff81;
-    font-style: italic;
-   border-bottom: 1px solid #f7f7f781;
-   width: 1000px;
-   margin: 50px;
+    align-content: right;
+    color: #3700ff93;
+    font-style:italic;
+    font-family: 'monospace';
+    border-bottom: 1px solid #ffffff;
+    /* width: 1000px; */
+    margin: 50px;
+    justify-content: center;
+    
   }
 
   .tt2{
-    text-shadow: 3px 3px #000000de ;
+    text-shadow: 3px 3px #000000;
+
   }
 
   .recomends{
-    height: 1035px;
+    /* height: 1035px; */
+    width: 100vw;
+    /* background-color: red; */
   }
+
+  @media (max-width: 1600px) {
+    .itemsr{
+      grid-template-columns: auto auto auto auto;
+    }
+  }
+

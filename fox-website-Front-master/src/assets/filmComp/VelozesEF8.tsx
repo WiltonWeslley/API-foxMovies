@@ -1,5 +1,5 @@
-import star  from"../imgs/stars.png";
-import mstar from"../imgs/meia-star.svg";
+import star from"../imgs/meia-star.svg";
+import mstar  from"../imgs/stars.png";
 import photo from"../imgs/VeF8p.jpg";
 
 function VelozesEF8(){

@@ -23,13 +23,15 @@ function MainPage(){
 
   return(
     <div className='container'>
-    <Header/>
-    <div className="carsel">
-    <Carsel/>
-    </div>
-    <Recomends /*filmes={filmes}*//>
-    <Sobre/>
-    <Footer/>
+      <Header/>
+      <div className="carsel">
+        <Carsel/>
+      </div>
+      
+      <Recomends /*filmes={filmes}*//>
+      <Sobre/>
+      <Footer/>
+    
     </div>
   )
 }

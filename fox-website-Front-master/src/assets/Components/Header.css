@@ -2,7 +2,8 @@
     width: 150px;
     height: 70px;
     padding: 8px;
-  }
+    display: relative;
+}
 
 .header{
     height: 80px;
@@ -10,7 +11,7 @@
     background-color: black;
     display: flex;
     color: #ffffffef;
-    border-bottom: 2px solid #4505bbda;
+    border-bottom: 2px solid #ffffffda;
     list-style: none;
 
   }
@@ -53,7 +54,8 @@
     display: flex;
     border-color: #460088;
   }
-  
+
+
   .ps1b{
     width: 40px;
     height: 30px;
@@ -76,8 +78,6 @@
     background-color: #ffffff;
   }
 
-  n
-
   .dropd{
     display: inline-block;
     text-decoration: none;
@@ -85,30 +85,54 @@
     position: relative;
     left: 2.09px;
     z-index: +10;
+    cursor: hand;
+  }
+
+  .PFCfoto{
+    background-color:#ffffffd5;
+    border-radius: 30%;
+    display:flex;
+    display: absolute;
+    flex-flow: wrap;
+    text-align: left;
   }
 
   .UserH{
     left: 9.01cm;
     position: relative;
-    display: inline-block;
+    display: inline;
     top: 9px;
+    flex-wrap: wrap;
+    break-inside: avoid;
     cursor: pointer;
+    margin-left: 100px;
+    top: +1px;  
+    z-index: 10;
   }
 
   .dropd1 .dropd .dropd-m a:hover{
     background-color: #6200ff85 1s;
+  }
 
+  .Gen{
+    cursor: pointer;
+    
   }
 
   .dropd-m{
     position: absolute;
     box-shadow: 0 0 2px black;
     display: none;
+    cursor: help;
+    z-index: 10;
+    border: 1px solid;
+    border-color:#fffafa1c;
+    background-color: #71b3ff21;
   }
 
   .dropd-m a{
     display: block;
-    color: #8664ff;
+    color: #ffffff;
   }
 
   .dropd:hover .dropd-m{
@@ -116,15 +140,16 @@
   }
 
   .header a {
-    color: #470c94;
+    color: #5500dd;
   }
 
   .resultBuscaFilm{
     list-style: none;
-    color: #470c94;
-    background-color:  #d5cbe473 ;
+    color: #5810ffa8;
+    background-color: #ffffffe8;
     justify-content: center;
     align-items: center;
+    border: 1px dotted;
     display: flex;
     bleed: 1px;
     border-radius: 8px;
@@ -136,17 +161,8 @@
     
     padding-left: 15%;
     padding-top: 2%;
-    z-index: 2;
+    z-index: 1;
     position: relative;
     
   }
 
-  .searchCompl{
-    padding-left: 0px;
-  }
-
-@media screen and (max-width:1280px) {
-  .header{
-    width: 1280px;
-  }
-}

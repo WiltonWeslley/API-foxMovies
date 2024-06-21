@@ -13,7 +13,6 @@ import 'swiper/css/autoplay';
 function Carsel(){
     return(
         <>
-    <div className="bcolor">
         <div className="CRm">
             <Swiper
             autoplay={{
@@ -52,7 +51,7 @@ function Carsel(){
                 </SwiperSlide>
             </Swiper>
         </div>
-</div>
+
         </>
     ) 
 }

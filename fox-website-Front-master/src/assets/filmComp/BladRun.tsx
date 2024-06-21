@@ -1,5 +1,4 @@
-import star  from"../imgs/stars.png";
-import mstar from"../imgs/meia-star.svg";
+import star  from"../imgs/starating_1.png";
 import blru from '../imgs/81+aXKMlwoL._SL1400_.jpg';
 
 
@@ -18,7 +17,7 @@ function BLR (){
                 <img className='st1' src={star}/>
                 <img className='st1' src={star}/>
                 <img className='st1' src={star}/>
-                <img className='st2' src={mstar}/>
+                <img className='st2' src={star}/>
                 </div>
             </div>
         </div>

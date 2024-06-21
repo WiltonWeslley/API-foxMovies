@@ -1,17 +1,15 @@
-body{
-    background-color:#00000094;
-    z-index: -2;
-}
 
 .container{
-    width: 1900px;
-
+    width:100vw;
+    /* height: auto; */
+    /* background-color: red; */
+    /* min-width: 500px; */
+    background-color: #000000;
 }
-
-
 .carsel{
-    padding-left: 480px ;
-    padding-top: 20px;
-    position: relative;
-    
+     margin-left: 400px;
+     align-items: center;
+    /*padding-left: 480px; 
+    padding-top: 20px;*/ 
+     position: relative; 
 }

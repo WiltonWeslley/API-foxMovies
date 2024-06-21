@@ -1,5 +1,5 @@
-import star  from "../imgs/starating_1.png";
-import mstar from "../imgs/stars.png";
+import star from "../imgs/stars.png";
+import mstar  from "../imgs/starating_1.png";
 import photo from"../imgs/VEFMp.webp";
 
 

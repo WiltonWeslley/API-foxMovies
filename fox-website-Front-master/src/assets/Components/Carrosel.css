@@ -6,6 +6,8 @@
     border-top: 0%;
     display: flex;
     cursor: grab;
+    width: 100%;
+    /* background-color: aqua; */
 
 }
 

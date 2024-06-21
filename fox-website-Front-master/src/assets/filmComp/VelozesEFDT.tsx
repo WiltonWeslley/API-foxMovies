@@ -1,5 +1,5 @@
-import star  from "../imgs/starating_1.png";
 import mstar from "../imgs/stars.png";
+import star from "../imgs/starating_1.png";
 import photo from"../imgs/VEFDTp.jpg";
 
 function VelozesEFDT(){
@@ -12,7 +12,7 @@ function VelozesEFDT(){
     <div className='des1'>
                 <p className='tl1'>Velozes & Furiosos: Desafio em Tóquio </p>
     <div className='imdb'>
-                <p>4,5</p>
+                <p>4,4</p>
     <div className='sti'>
             <img className='st1' src={star}/>
             <img className='st1' src={star}/>

@@ -1,5 +1,5 @@
-import star  from "../imgs/starating_1.png";
-import mstar from "../imgs/stars.png";
+import mstar  from "../imgs/starating_1.png";
+import star from "../imgs/stars.png";
 import photo from"../imgs/VEF5p.jpg";
 
 function VelozesEF5(){

@@ -1,4 +1,4 @@
-import star  from"../imgs/stars.png";
+import star  from"../imgs/starating_1.png";
 import mstar from"../imgs/meia-star.svg";
 import photo from"../imgs/ClubeDaLutap.jpg";
 
@@ -18,7 +18,7 @@ function ClubeDaLuta(){
             <img className='st1' src={star}/>
             <img className='st1' src={star}/>
             <img className='st1' src={star}/>
-            <img className='st2' src={mstar}/>
+            <img className='st1' src={mstar}/>
                 </div>
             </div>
         </div>

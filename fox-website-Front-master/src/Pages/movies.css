@@ -2,7 +2,7 @@ body{
     display: flex;
     padding: 0px;
     margin: 0px;
-    background-color: #00000094;
+    background-color: #000000;
  }
 
 .PMm{
@@ -16,7 +16,6 @@ body{
     justify-content: space-between;
     line-break: loose;
     height: 100%;
-    /* background-color: red; */
     min-height: 100vh;
 }
 

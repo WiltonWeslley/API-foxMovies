@@ -1,5 +1,4 @@
-import star  from"../imgs/stars.png";
-import mstar from"../imgs/meia-star.svg";
+import star  from"../imgs/starating_1.png";
 import photo from"../imgs/HPCSp.jpg";
 
 function HarryPotterCS(){
@@ -12,13 +11,14 @@ function HarryPotterCS(){
     <div className='des1'>
                 <p className='tl1'>Harry Potter e a Câmara Secreta</p>
     <div className='imdb'>
-                <p>4,5</p>
+                <p>5,5</p>
     <div className='sti'>
             <img className='st1' src={star}/>
             <img className='st1' src={star}/>
             <img className='st1' src={star}/>
             <img className='st1' src={star}/>
-            <img className='st2' src={mstar}/>
+            <img className='st1' src={star}/>
+            <img className='st1' src={star}/>
                 </div>
             </div>
         </div>
