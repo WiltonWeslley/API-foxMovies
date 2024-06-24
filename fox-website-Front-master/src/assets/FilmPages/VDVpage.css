@@ -147,6 +147,50 @@ body{
     margin-right: 20px;
 }
 
+.ipt{
+    width: 1200px;
+    background-color: rgba(255, 255, 255, 0);
+    border: #1b1b1b 1px solid;
+    outline-style: none;
+    height: 40px;
+    border-radius:30px;
+    padding-left: 50px;
+}
+
+
+.btn{
+    margin-left: 45px;
+    background-color: #0000000e;
+    height: 40px;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn:hover{
+    color: #12c086b4;
+    border-color: #12c086b4;
+}
+
+.rmv{
+    height: 15px;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0000000e;
+}
+
+.rmv:hover{
+    color: #12c086b4;
+    border-color: #12c086b4;
+}
+
+.td4{
+    padding-left: 67%;
+}
+
+
 @media screen and (max-width:1280px){
 
     .PFm{

@@ -128,14 +128,15 @@ function VDVpage(){
                     <button className="PFplayerd">Dublado</button>
                     </div>
                 </div>
-                </div>
+                </div>  
              </div>
              <div className="PFcomentario">
-             <input placeholder='comentario' onChange={handleOnInputChange} className='ipt'
+              <div className="opn">
+             <input placeholder='Faça seu comentario Sobre o Site' onChange={handleOnInputChange} className='ipt'
                     value={userName.length > 0 ? userName : ""} />
 
-                 <button onClick={handleAddOrUpdateUser} className='btn'>Salvar</button>
-
+                 <div className="btn2"><button onClick={handleAddOrUpdateUser} className='btn'>Salvar</button></div>
+                 </div>
                         {users.map((user) => (
                           <div key={user.id} className='PFcomentario2'>
                             <img className="PFCfoto" src={PFCfoto}/>
