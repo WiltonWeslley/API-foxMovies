@@ -113,11 +113,11 @@ function Loogin() {
       <div className="cadass">
           <div className="c2">
             <h2 className="at2">Cadastre-se Aqui</h2>
-            <div className="InpC"><input type="text" placeholder="Coloque seu Login" onChange={handleOnInputName} className='ipt'
+            <div className="InpC"><input type="text" placeholder="Coloque seu Login" onChange={handleOnInputName} className='ipt0'
             value={userName.length > 0 ? userName : ""}/></div>
-            <div className="InpC"><input type="text" placeholder="Coloque seu Email" onChange={handleOnInputEmail} className='ipt'
+            <div className="InpC"><input type="text" placeholder="Coloque seu Email" onChange={handleOnInputEmail} className='ipt0'
             value={userEmail.length > 0 ? userEmail : ""} /></div>
-            <div className="InpC"><input type="password" placeholder="Insira sua senha" onChange={handleOnInputkey} className='ipt'
+            <div className="InpC"><input type="password" placeholder="Insira sua senha" onChange={handleOnInputkey} className='ipt0'
             value={userKey.length > 0 ? userKey : ""}  /></div>
           </div>
           <input onClick={handleAddOrUpdateUser} type="submit" value="Cadastrar" />
