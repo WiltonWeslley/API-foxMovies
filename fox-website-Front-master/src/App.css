@@ -4,10 +4,16 @@
   margin: 0;
   padding: 0;
   font-family: Poppins ,Arial, Helvetica, sans-serif;
-  
+  color: var(--color-#031273);
+  color: var(--color-#0504AA);
+  color: var(---color-#2337C6);
+  color: var(---color-#2157C9);
+  color: var(---color-#4CC9F0);
+  color: var(---color-#8CD1D0);
 }
 
 .container{
   background-color: #00000094;
+
 }
 

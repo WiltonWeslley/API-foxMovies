@@ -1,11 +1,13 @@
 import "./Header.css"
-import logo from "../imgs/Simple Black Beige Men Style Typography Fashion Logo.png"
+/*import logo from "../imgs/Simple Black Beige Men Style Typography Fashion Logo.png"*/
 import lupa from "../imgs/pipoca-para-filmes.png"
 import { Link } from "react-router-dom";
 import UserP from '../imgs/user.svg';
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { V3X_API } from "../../API.utilite/URL.API";
+import "../Components/sobre.scss";
+import logo from "../imgs/logo2.png"
 
 
 interface Search{
@@ -80,6 +82,7 @@ const search : Search[] = [
   {nome:'Star Wars:Uma Nova Esperança', rota:'#Star-Wars:Uma-Nova-Esperança'},
   {nome:'Star Wars:O Imperio Contra ataca', rota:'#Star-Wars:O-Imperio-Contra-ataca'},
   {nome:'Star Wars:O Retorno de Jedi', rota:'#Star-Wars:O-Retorno-de-Jedi'}
+  
 ]
     
 function Header(){
@@ -109,7 +112,16 @@ function Header(){
 
     return(
     <div className='header'>
-        <img src={logo} className='lg'/>
+    
+    {/*<div className='sobre'>
+        <div className='stt1'>
+            <h2 className='st1s'>Fox</h2>
+            <h3 className='st1n'>Movies</h3>
+        </div>
+    </div>*/}
+
+      <img src={logo}/>
+               
         <li className='list1'>
           <a href="/"><p className='hb1'>P.inicial</p></a>
           <li className="dropd">

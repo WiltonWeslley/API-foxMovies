@@ -95,6 +95,7 @@ function ParaTodosOGPSpage(){
           alert(err);
         })
     }, [])*/
+    return(
         <>  
         <div className="PFm">
                   <div className="PFheader">
@@ -148,6 +149,6 @@ function ParaTodosOGPSpage(){
             </div>
         </div>
      </>
-}
+    )}
 
 export default ParaTodosOGPSpage

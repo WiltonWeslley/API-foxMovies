@@ -1,7 +1,13 @@
   .body{
+    color: var(--color-#000b50);
+    color: var(--color-#78b3ffbb);
+    color: var(---color-#c7c7c7);
+    color: var(---color-#003444);
+    color: var(---color-#00a3d4);
+    color: var(---color-#3f9c9c);
     display: flex;
     justify-content: left;
-    background:linear-gradient(#000000,#3700ff57); 
+    background:linear-gradient(#000000,#00583b); 
     flex-grow: 1;
     height: 2000px;
     width: 100%;
@@ -95,7 +101,7 @@
 
   .itemsr1:hover{
     transition: 0.3s;
-    border-color: #3700ff;
+    border-color: #00f3a2;
     transform: scale(1.03);
     
   }
@@ -110,11 +116,10 @@
     align-items: left;
     display: flex;
     align-content: right;
-    color: #3700ff93;
+    color: #00441c;
     font-style:italic;
     font-family: 'monospace';
     border-bottom: 1px solid #ffffff;
-    /* width: 1000px; */
     margin: 50px;
     justify-content: center;
     
@@ -126,9 +131,9 @@
   }
 
   .recomends{
-    /* height: 1035px; */
+    
     width: 100vw;
-    /* background-color: red; */
+
   }
 
   @media (max-width: 1600px) {
